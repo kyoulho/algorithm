@@ -1,7 +1,9 @@
+package programmers
+
 import kotlin.math.ceil
 
-class SolutionKt : Solution {
-    override fun solution(progresses: IntArray, speeds: IntArray): IntArray {
+class Programmers42586 {
+    fun solution(progresses: IntArray, speeds: IntArray): IntArray {
         var answer = intArrayOf()
 
         val q = progresses
@@ -13,14 +15,14 @@ class SolutionKt : Solution {
         var count = 1
 
         q.forEach { current ->
-                if (prev >= current){
-                    count++
-                }else{
-                    answer = answer.plus(count)
-                    count = 1
-                    prev = current
-                }
+            if (prev >= current) {
+                count++
+            } else {
+                answer = answer.plus(count)
+                count = 1
+                prev = current
             }
+        }
 
         answer = answer.plus(count)
         return answer

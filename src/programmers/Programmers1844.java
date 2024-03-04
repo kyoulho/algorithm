@@ -1,12 +1,14 @@
-import java.util.LinkedList;
+package programmers;
 
-class Solution {
+import java.util.*;
 
-     /*
-        BFS
-        지나온 자리는 0으로 바꿔줘야한다.
-        네가지 방향 중에 1인 곳을 넣는다.
-     */
+public class Programmers1844 {
+
+    /*
+       BFS
+       지나온 자리는 0으로 바꿔줘야한다.
+       네가지 방향 중에 1인 곳을 넣는다.
+    */
     private final int[][] DIRECTS = {
             {-1, 0},
             {1, 0},
@@ -14,7 +16,7 @@ class Solution {
             {0, 1}
     };
 
-  public int solution(int[][] maps) {
+    public int solution(int[][] maps) {
         int lastX = maps[0].length - 1;
         int lastY = maps.length - 1;
 
@@ -43,16 +45,17 @@ class Solution {
         }
         return -1;
     }
-}
 
-class Point {
-    int x;
-    int y;
-    int level;
+    static class Point {
 
-    public Point(int x, int y, int level) {
-        this.x = x;
-        this.y = y;
-        this.level = level;
+        int x;
+        int y;
+        int level;
+
+        public Point(int x, int y, int level) {
+            this.x = x;
+            this.y = y;
+            this.level = level;
+        }
     }
 }
