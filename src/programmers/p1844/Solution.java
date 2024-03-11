@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p1844;
 
 import java.util.*;
 
-public class Programmers1844 {
+public class Solution {
 
     /*
        BFS

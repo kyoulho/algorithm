@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p1845;
 
 import java.util.*;
 
-public class Programmers1845 {
+public class Solution {
     public int solution(int[] nums) {
         int n = nums.length / 2;
 

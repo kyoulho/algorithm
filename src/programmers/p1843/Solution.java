@@ -1,6 +1,6 @@
-package programmers;
+package programmers.p1843;
 
-public class Programmers1843 {
+public class Solution {
     /*
        홀수 인덱스에 연산자가 있다.
        최대 a + b => a 최대, b 최대
