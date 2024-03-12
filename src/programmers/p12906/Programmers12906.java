@@ -1,4 +1,4 @@
-package programmers;
+package programmers.p12906;
 
 import java.util.LinkedList;
 
