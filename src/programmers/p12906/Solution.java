@@ -2,7 +2,7 @@ package programmers.p12906;
 
 import java.util.LinkedList;
 
-public class Programmers12906 {
+public class Solution {
 
     public int[] solution(int[] arr) {
         LinkedList<Integer> q = new LinkedList<>();

@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42576;
 
 import java.util.HashMap;
 
-public class Programmers42576 {
+public class Solution {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
         HashMap<String, Integer> map = new HashMap<>();
