@@ -1,6 +1,6 @@
-package programmers
+package programmers.p42584
 
-class Programmers42584 {
+class Solution {
     fun solution(prices: IntArray): IntArray {
         val answer = IntArray(prices.size)
         for (i in prices.indices) {

@@ -1,6 +1,6 @@
-package programmers
+package programmers.p42578
 
-class Programmers42578 {
+class Solution {
     fun solution(clothes: Array<Array<String>>): Int {
         val frequencyMap = clothes.groupBy { it[1] }.mapValues { it.value.size + 1 }
 

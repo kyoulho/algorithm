@@ -1,6 +1,6 @@
-package programmers
+package programmers.p42579
 
-class Programmers42579 {
+class Solution {
     fun solution(genres: Array<String>, plays: IntArray): IntArray {
         return genres.indices.groupBy { genres[it] }
             .toList()

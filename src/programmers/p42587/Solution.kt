@@ -1,8 +1,8 @@
-package programmers
+package programmers.p42587
 
 import java.util.*
 
-class Programmers42587 {
+class Solution {
     fun solution(priorities: IntArray, location: Int): Int {
         var answer = 0
 

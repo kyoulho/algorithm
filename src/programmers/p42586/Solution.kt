@@ -1,8 +1,8 @@
-package programmers
+package programmers.p42586
 
 import kotlin.math.ceil
 
-class Programmers42586 {
+class Solution {
     fun solution(progresses: IntArray, speeds: IntArray): IntArray {
         var answer = intArrayOf()
 

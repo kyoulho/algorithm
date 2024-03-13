@@ -1,6 +1,6 @@
-package programmers
+package programmers.p42583
 
-class Programmers42583 {
+class Solution {
     fun solution(bridge_length: Int, weight: Int, truck_weights: IntArray): Int {
         val trucks = truck_weights.map {
             Truck(weight = it, bridge_length = bridge_length)

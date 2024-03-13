@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42577;
 
 import java.util.Arrays;
 
-public class Programmers42577 {
+public class Solution {
     public boolean solution(String[] phone_book) {
         Arrays.sort(phone_book);
 
