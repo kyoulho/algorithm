@@ -1,6 +1,6 @@
-package programmers
+package programmers.p42628
 
-class Programmers42628 {
+class Solution {
     private val queue = mutableListOf<Int>()
 
     fun solution(operations: Array<String>): IntArray {

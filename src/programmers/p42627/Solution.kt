@@ -1,8 +1,8 @@
-package programmers
+package programmers.p42627
 
 import java.util.*
 
-class Programmers42627 {
+class Solution {
     data class Job(val requestTime: Int, val duration: Int)
 
     fun solution(jobs: Array<IntArray>): Int {

@@ -1,9 +1,9 @@
-package programmers;
+package programmers.p42626;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class Programmers42626 {
+public class Solution {
     /*
         우선 순위 큐에 다 넣는다.
         가장 작은 수부터 꺼낸다.
