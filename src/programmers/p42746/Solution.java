@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42746;
 
 import java.util.Arrays;
 
-public class Programmers42746 {
+public class Solution {
     public String solution(int[] numbers) {
        // int 배열을 String 배열로 변환
         String[] strNumbers = new String[numbers.length];

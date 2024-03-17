@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42747;
 
 import java.util.Arrays;
 
-public class Programmers42747 {
+public class Solution {
     public int solution(int[] citations) {
         Arrays.sort(citations);
         int ll = citations.length;

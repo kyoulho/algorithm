@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42748;
 
 import java.util.Arrays;
 
-public class Programmers42748 {
+public class Solution {
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
 
