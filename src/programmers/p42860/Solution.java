@@ -1,6 +1,6 @@
-package programmers;
+package programmers.p42860;
 
-public class Programmers42860 {
+public class Solution {
     public int solution(String name) {
         int length = name.length();
         int joystickCount = 0; // 조이스틱 조작 횟수

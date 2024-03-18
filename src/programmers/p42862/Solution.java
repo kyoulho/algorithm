@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42862;
 
 import java.util.HashSet;
 
-public class Programmers42862 {
+public class Solution {
     public int solution(int n, int[] lost, int[] reserve) {
         HashSet<Integer> lostSet = new HashSet<>();
         for (int i : lost) {

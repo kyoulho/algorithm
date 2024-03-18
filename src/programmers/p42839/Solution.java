@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42839;
 
 import java.util.HashSet;
 
-public class Programmers42839 {
+public class Solution {
     public int solution(String numbers) {
         HashSet<Integer> set = new HashSet<>();
         char[] charArray = numbers.toCharArray();

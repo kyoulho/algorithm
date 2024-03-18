@@ -1,6 +1,6 @@
-package programmers;
+package programmers.p42842;
 
-public class Programmers42842 {
+public class Solution {
      public int[] solution(int brown, int yellow) {
         // brown = 2x + 2y - 4
         // brown + yellow = x * y

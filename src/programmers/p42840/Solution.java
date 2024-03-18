@@ -1,10 +1,9 @@
-package programmers;
+package programmers.p42840;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class Programmers42840 {
+public class Solution {
     public int[] solution(int[] answers) {
         List<Integer> answer = new ArrayList<>();
         // 수포자 객체 생성, 번호와 패턴 바인딩

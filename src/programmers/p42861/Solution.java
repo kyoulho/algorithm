@@ -1,9 +1,9 @@
-package programmers;
+package programmers.p42861;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Programmers42861 {
+public class Solution {
     // 비용으로 오름차순 정렬 후
     // 연결 가능한 것들을 하나씩 연결한다.
     // 최소 비용 반환
