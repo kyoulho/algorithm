@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42885;
 
 import java.util.Arrays;
 
-public class Programmers42885 {
+public class Solution {
     public int solution(int[] people, int limit) {
         Arrays.sort(people);
         int answer = 0;

@@ -1,9 +1,9 @@
-package programmers;
+package programmers.p42884;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Programmers42884 {
+public class Solution {
     public int solution(int[][] routes) {
         // routes 배열을 나가는 지점(end)을 기준으로 오름차순 정렬
         Arrays.sort(routes, Comparator.comparingInt(a -> a[1]));

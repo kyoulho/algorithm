@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42883;
 
 import java.util.Stack;
 
-public class Programmers42883 {
+public class Solution {
     // 바로 앞에 인덱스가 현재 인덱스 보다 작으면 삭제
     // 스택에 하나씩 넣으면서 앞에 있는게 현재보다 작으면 제거
     public String solution(String number, int k) {
