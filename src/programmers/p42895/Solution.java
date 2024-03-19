@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p42895;
 
 import java.util.*;
 
-public class Programmers42895 {
+public class Solution {
     public int solution(int N, int number) {
         int answer = -1;
 

@@ -1,6 +1,6 @@
-package programmers;
+package programmers.p42898;
 
-public class Programmers42898 {
+public class Solution {
     public int solution(int m, int n, int[][] puddles) {
         int[][] memo = new int[n + 2][m + 2];
 

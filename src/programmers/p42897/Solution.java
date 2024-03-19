@@ -1,9 +1,9 @@
-package programmers;
+package programmers.p42897;
 
 import java.util.Arrays;
 
 
-public class Programmers42897 {
+public class Solution {
     /*
        경우1: 처음 집 포함, 마지막 집 제외
        경우2: 처음 집 제외, 마지막 집 포함
