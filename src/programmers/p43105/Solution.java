@@ -1,6 +1,6 @@
-package programmers;
+package programmers.p43105;
 
-public class Programmers43105 {
+public class Solution {
     public int solution(int[][] triangle) {
         // 아래에서 하나씩 올라간다.
         for (int i = triangle.length - 1; i > 0; i--) {

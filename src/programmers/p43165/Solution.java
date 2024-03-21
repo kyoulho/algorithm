@@ -1,6 +1,6 @@
-package programmers;
+package programmers.p43165;
 
-public class Programmers43165 {
+public class Solution {
     /*
         numbers 에서 하나씩 빼서 +, - 로 재귀
         마지막 numbers 까지 계산 후에

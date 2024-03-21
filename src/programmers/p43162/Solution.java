@@ -1,6 +1,6 @@
-package programmers;
+package programmers.p43162;
 
-public class Programmers43162 {
+public class Solution {
     public int solution(int n, int[][] computers) {
         UnionFind unionFind = new UnionFind(n);
         for (int i = 0; i < n; i++) {

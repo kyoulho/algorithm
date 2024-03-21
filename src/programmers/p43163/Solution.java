@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p43163;
 
 import java.util.LinkedList;
 
-public class Programmers43163 {
+public class Solution {
         public int solution(String begin, String target, String[] words) {
         int answer = 0;
         // 첫번째 스텝에서는 begin과 한글자가 다른 문자열들이
@@ -19,7 +19,7 @@ public class Programmers43163 {
             for (int i = 0; i < size; i++) {
                 String poll = q.poll();
 
-                if (poll.equals(target)) {
+                if (target.equals(poll)) {
                     return answer;
                 }
 

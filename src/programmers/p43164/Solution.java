@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p43164;
 
 import java.util.*;
 
-public class Programmers43164 {
+public class Solution {
    public String[] solution(String[][] tickets) {
         List<String> answer = new ArrayList<>();
         Arrays.sort(tickets, Comparator.comparing(o -> o[1]));
