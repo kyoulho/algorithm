@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p43238;
 
 import java.util.*;
 
-public class Programmers43238 {
+public class Solution {
    public long solution(int n, int[] times) {
         long answer = 0;
 

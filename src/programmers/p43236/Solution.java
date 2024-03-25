@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p43236;
 
 import java.util.Arrays;
 
-public class Programmers43236 {
+public class Solution {
     /*
         최소 거리가 n 과 일치 하는 범위 중에서 가장 큰 수를 반환해야 한다.
         최소 거리보다 더 짧은 거리가 있다면 돌을 제거해야한다.

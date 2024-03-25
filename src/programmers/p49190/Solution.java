@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p49190;
 
 import java.util.*;
 
-public class Programmers49190 {
+public class Solution {
 
     static class Pair {
         public int x;

@@ -1,9 +1,9 @@
-package programmers;
+package programmers.p49189;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Programmers49189 {
+public class Solution {
      /*
         BFS를 이용해서 각 레밸 별로 카운트
         몇 레벨까지 있을지 알 수 없다. 그래서 list
