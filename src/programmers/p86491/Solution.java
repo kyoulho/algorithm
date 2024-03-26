@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p86491;
 
 import java.util.Arrays;
 
-public class Programmers86491 {
+public class Solution {
     public int solution(int[][] sizes) {
         int maxW = Arrays.stream(sizes).map(
                 it -> new Card(it[0], it[1])

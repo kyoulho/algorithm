@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p87694;
 
 import java.util.LinkedList;
 
-public class Programmers87694 {
+public class Solution {
 
     private static final int[][] DIRECTS = {
             {-1, 0},

@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p87946;
 
 import java.util.Arrays;
 
-public class Programmers87946 {
+public class Solution {
     int answer = -1;
 
     public int solution(int k, int[][] dungeons) {

@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p84021;
 
 import java.util.*;
 
-public class Programmers84021 {
+public class Solution {
     private final int[][] DIRECTS = new int[][]{
             {-1, 0},
             {1, 0},

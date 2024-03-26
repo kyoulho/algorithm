@@ -1,6 +1,6 @@
-package programmers;
+package programmers.p86971;
 
-public class Programmers86971 {
+public class Solution {
 
     public int solution(int n, int[][] wires) {
         int answer = Integer.MAX_VALUE;

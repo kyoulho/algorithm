@@ -1,8 +1,8 @@
-package programmers;
+package programmers.p84512;
 
 import java.util.*;
 
-public class Programmers84512 {
+public class Solution {
     Set<String> dictionary = new TreeSet<>();
     int answer = -1;
 
