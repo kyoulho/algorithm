@@ -41,15 +41,4 @@ public class Solution {
         map.computeIfPresent(key, (k, v) -> v - 1);
         map.remove(key, 0);
     }
-
-
-    public static void main(String[] args) {
-        Solution T = new Solution();
-        int solution = T.solution(
-                new String[]{"banana", "apple", "rice", "pork", "pot"},
-                new int[]{3, 2, 2, 2, 1},
-                new String[]{"chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana"}
-        );
-        System.out.println(solution);
-    }
 }
