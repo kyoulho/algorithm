@@ -4,10 +4,11 @@ import java.util.*;
 
 public class Solution {
     public int solution(int cacheSize, String[] cities) {
-        int answer = 0;
         if (cacheSize == 0) {
             return cities.length * 5;
         }
+
+        int answer = 0;
         Cache cache = new Cache(cacheSize);
         for (String city : cities) {
             answer += cache.findCity(city.toLowerCase(Locale.ROOT));
