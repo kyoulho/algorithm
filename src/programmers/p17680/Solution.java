@@ -15,7 +15,6 @@ public class Solution {
         return answer;
     }
 
-
     static class Cache {
         int size;
         Deque<String> deque;
@@ -29,34 +28,18 @@ public class Solution {
 
         int findCity(String city) {
             if (cacheSet.contains(city)) {
-                // City found in cache
                 deque.remove(city);
                 deque.addFirst(city);
-                return 1; // Return 1 indicating cache hit
+                return 1;
             } else {
-                // City not found in cache
                 if (deque.size() >= size) {
-                    // Cache is full, remove the least recently used city
                     String removedCity = deque.removeLast();
                     cacheSet.remove(removedCity);
                 }
-                // Add the new city to the cache
                 deque.addFirst(city);
                 cacheSet.add(city);
-                return 5; // Return 5 indicating cache miss
+                return 5;
             }
         }
     }
-
-    public static void main(String[] args) {
-        Solution T = new Solution();
-        int solution = T.solution(2,
-                new String[]{
-                        "Jeju", "Pangyo", "NewYork", "newyork"
-                }
-        );
-
-        System.out.println(solution);
-    }
-
 }
