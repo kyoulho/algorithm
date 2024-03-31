@@ -10,4 +10,3 @@ def solution(numbers):
         stack.append(i)
 
     return answer
-
